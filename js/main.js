@@ -2,7 +2,7 @@ var urlRPC = "https://goerli.base.org";
 var currency = "ETH";
 var networkName = "Base Goerli"
 const chainId = 84531;
-const milisecondsToWait = 7000;
+const milisecondsToWait = 12000;
 
 var web3 = new Web3(new Web3.providers.HttpProvider(urlRPC));
 const MMSDK = new MetaMaskSDK.MetaMaskSDK();
